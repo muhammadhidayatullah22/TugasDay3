@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BugattiActivity">
+
+    <TextView
+        android:id="@+id/tvb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BUGATTI MODELS"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/ibb1"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvb"
+        android:contentDescription="@string/bugattii_veyron"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bugatti_veyron"/>
+
+    <TextView
+        android:id="@+id/tvb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bugatti_veyron_ss"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibb1"
+        android:layout_below="@id/tvb"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/bb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvb1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibb1"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibb2"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibb1"
+        android:contentDescription="@string/bugatti_chiron"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bugatti_chiron"/>
+
+    <TextView
+        android:id="@+id/tvb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bb1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibb1"
+        android:text="@string/bc"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvb2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibb2"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibb3"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibb2"
+        android:contentDescription="@string/bugattidivo"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bugatti_divo"/>
+
+    <TextView
+        android:id="@+id/tvb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bb2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibb3"
+        android:text="@string/bugatti_divo"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvb3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibb2"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibb4"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibb3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_la_voiture_noire"
+        android:contentDescription="@string/lavoiturenoire" />
+
+    <TextView
+        android:id="@+id/tvb4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bb3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibb3"
+        android:text="@string/la_voiture_noire"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvb4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibb2"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibb5"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibb4"
+        android:contentDescription="@string/centodieci"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cen"/>
+
+    <TextView
+        android:id="@+id/tvb5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bb4"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibb3"
+        android:text="@string/centodieci"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bb5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvb5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibb2"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+</RelativeLayout>

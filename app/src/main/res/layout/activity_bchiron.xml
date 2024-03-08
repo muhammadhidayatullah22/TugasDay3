@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BchironActivity">
+
+    <TextView
+        android:id="@+id/tvv1"
+        android:text="@string/bchion"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvv1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bchiron" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/iv1"
+        android:layout_marginStart="12dp"
+        android:layout_below="@+id/tvv1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bchiron2" />
+
+    <TextView
+        android:id="@+id/tvv2"
+        android:layout_below="@id/iv1"
+        android:text="@string/bugatti_chironN"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/iv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/mesin_8_0_liter_quad_turbocharged_w16_tenaga_1_479_ps_torsi_1_600_nm_nperforma_kecepatan_maksimum_terbatas_hingga_420_km_jam_elektronik_lebih_dari_500_km_jam_tanpa_pembatas_elektronik_akselerasi_0_100_km_jam_sekitar_2_5_detik_ntransmisi_7_kecepatan_dsg_direct_shift_gearbox_dengan_paddle_shifters_nrangka_dan_suspensi_rangka_monokok_karbon_fiber_suspensi_suspensi_independen_dengan_pengaturan_kinerja_tinggi_nrem_rem_depan_brembo_rem_karbon_seramik_rem_belakang_brembo_rem_karbon_seramik_ndimensi_dan_bobot_panjang_4_544_mm_lebar_2_038_mm_tinggi_1_212_mm_berat_1_996_kg_ninterior_interior_yang_mewah_dengan_material_berkualitas_tinggi_sistem_hiburan_canggih_dan_sistem_navigasi_neksterior_desain_aerodinamis_yang_inovatif_material_konstruksi_ringan_untuk_meningkatkan_performa_nfitur_lainnya_sistem_kontrol_traksi_sistem_kontrol_stabilitas_sistem_pengereman_anti_blokir_abs_sistem_pengurangan_kecepatan_darurat_sistem_pengukur_tekanan_ban"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/tvv3"
+        android:layout_below="@id/iv3"
+        android:text="Price $ 3,000,000"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bv1"
+        android:layout_width="44dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tvv3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/baseline_ios_share_24"/>
+
+</RelativeLayout>

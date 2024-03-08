@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".P911t3rsActivity">
+
+    <TextView
+        android:id="@+id/tvv1"
+        android:text="911 GT3 RS"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvv1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/p911gt3rs" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/iv1"
+        android:layout_marginStart="12dp"
+        android:layout_below="@+id/tvv1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/p911gt3rs2" />
+
+    <TextView
+        android:id="@+id/tvv2"
+        android:layout_below="@id/iv1"
+        android:text="911 GT3 RS"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/iv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/mesin_4_0_liter_naturally_aspirated_flat_six_tenaga_520_ps_torsi_470_nm_nperforma_kecepatan_maksimum_lebih_dari_312_km_jam_akselerasi_0_100_km_jam_sekitar_3_0_detik_ntransmisi_7_kecepatan_pdk_porsche_doppelkupplung_dengan_paddle_shifters_nrangka_dan_suspensi_rangka_monokok_karbon_fiber_dan_baja_suspensi_suspensi_olahraga_yang_disesuaikan_untuk_trek_nrem_rem_depan_brembo_rem_karbon_seramik_rem_belakang_brembo_rem_karbon_seramik_ndimensi_dan_bobot_panjang_4_557_mm_lebar_1_880_mm_tinggi_1_290_mm_berat_sekitar_1_420_kg_ninterior_interior_yang_fungsional_dengan_fokus_pada_performa_kursi_balap_dan_sistem_hiburan_yang_minimalis_neksterior_desain_aerodinamis_yang_agresif_untuk_meningkatkan_downforce_spoiler_belakang_besar_dan_difuser_untuk_stabilitas_di_trek_nfitur_lainnya_sistem_kontrol_traksi_sistem_kontrol_stabilitas_sistem_pengereman_anti_blokir_abs_sistem_pengukur_tekanan_ban"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/tvv3"
+        android:layout_below="@id/iv3"
+        android:text="Price $ 245,000"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sbv2"
+        android:layout_width="44dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tvv3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/baseline_ios_share_24"/>
+
+</RelativeLayout>

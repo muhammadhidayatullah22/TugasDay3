@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KregeraActivity">
+
+    <TextView
+        android:id="@+id/tvv1"
+        android:text="KOENIGSEGG REGERA"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvv1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kregera" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/iv1"
+        android:layout_marginStart="12dp"
+        android:layout_below="@+id/tvv1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/kregera2" />
+
+    <TextView
+        android:id="@+id/tvv2"
+        android:layout_below="@id/iv1"
+        android:text="KOENIGSEGG REGERA"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/iv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Mesin: 5.0-liter twin-turbocharged V8, Tenaga: 1.100 PS dari mesin internal, Tenaga tambahan dari motor listrik: Lebih dari 700 PS, Tenaga total: Lebih dari 1.500 PS, Torsi: Lebih dari 2.000 Nm\nPerforma: Kecepatan Maksimum: Lebih dari 400 km/jam, Akselerasi 0-100 km/jam: Sekitar 2,8 detik\nTransmisi: Transmisi langsung tanpa gigi (Direct Drive), 1 percepatan, dengan bantuan motor listrik\nBaterai: Kapasitas baterai Li-ion 4,5 kWh\nJarak Tempuh: Modus EV: sekitar 35 km, Modus Hibrida: sekitar 450 km\nDimensi dan Bobot: Panjang: Sekitar 4.500 mm, Lebar: Sekitar 2.000 mm, Tinggi: Sekitar 1.100 mm, Berat: Sekitar 1.620 kg\nInterior: Interior yang mewah dengan desain futuristik, Layar sentuh infotainment yang besar\nEksterior: Desain aerodinamis yang agresif, Sistem pembukaan pintu yang unik\nFitur Lainnya: Sistem kontrol traksi, Sistem kontrol stabilitas, Sistem pengereman anti-blokir (ABS), Sistem pengukur tekanan ban"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/tvv3"
+        android:layout_below="@id/iv3"
+        android:text="Price $ 5,000,000"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sbvk1"
+        android:layout_width="44dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tvv3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/baseline_ios_share_24"/>
+
+</RelativeLayout>

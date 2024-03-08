@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KoenigseggActivity">
+
+    <TextView
+        android:id="@+id/tvb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KOENNIGSEGG MODELS"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/ibk1"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvb"
+        android:contentDescription="@string/agera"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_koenigsegg_agera"/>
+
+    <TextView
+        android:id="@+id/tvb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/koenigsegg_agera"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibk1"
+        android:layout_below="@id/tvb"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/bk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvb1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibk1"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibk2"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibk1"
+        android:contentDescription="@string/bugatti_chiron"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_koenigsegg_agera_rs"/>
+
+    <TextView
+        android:id="@+id/tvb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bk1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibk1"
+        android:text="@string/koenigsegg_agera_rs"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvb2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibk2"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibk3"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibk2"
+        android:contentDescription="@string/jesko"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_koenigsegg_jesko"/>
+
+    <TextView
+        android:id="@+id/tvb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bk2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibk3"
+        android:text="@string/koenigsegg_jesko"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvb3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibk2"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibk4"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibk3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_koenigsegg_regera"
+        android:contentDescription="@string/regera" />
+
+    <TextView
+        android:id="@+id/tvb4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bk3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibk3"
+        android:text="@string/koenigsegg_regera"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvb4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibk2"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibk5"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibk4"
+        android:contentDescription="@string/one1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_koenigsegg_one_1"/>
+
+    <TextView
+        android:id="@+id/tvb5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bk4"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibk3"
+        android:text="@string/koenigsegg_one_1"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bk5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvb5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibk2"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+</RelativeLayout>

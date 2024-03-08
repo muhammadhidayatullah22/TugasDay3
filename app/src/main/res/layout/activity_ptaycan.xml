@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PtaycanActivity">
+
+    <TextView
+        android:id="@+id/tvv1"
+        android:text="TAYCAN"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvv1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ptaycan" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/iv1"
+        android:layout_marginStart="12dp"
+        android:layout_below="@+id/tvv1"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/ptaycan2" />
+
+    <TextView
+        android:id="@+id/tvv2"
+        android:layout_below="@id/iv1"
+        android:text="TAYCAN"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/iv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Mesin: Motor listrik ganda, Tenaga: Varian bervariasi (mulai dari 380 PS hingga lebih dari 750 PS), Torsi: Varian bervariasi\nPerforma: Kecepatan Maksimum: Lebih dari 250 km/jam, Akselerasi 0-100 km/jam: Mulai dari kurang dari 3,0 detik\nTransmisi: Transmisi satu kecepatan, Direct-drive\nBaterai: Kapasitas baterai bervariasi tergantung pada model, dengan kisaran 79.2 kWh hingga 93.4 kWh\nJarak Tempuh: Rata-rata sekitar 350 km - 450 km tergantung pada kondisi dan model\nDimensi dan Bobot: Panjang: Sekitar 4.960 mm, Lebar: Sekitar 1.960 mm, Tinggi: Sekitar 1.380 mm, Berat: Tergantung pada model dan opsi tambahan\nInterior: Desain modern dengan teknologi canggih, Layar sentuh infotainment yang besar\nEksterior: Desain aerodinamis yang elegan, Fitur-fitur yang mengurangi hambatan udara\nFitur Lainnya: Sistem pengisian cepat baterai, Sistem pengisian nirkabel, Sistem pengemudi otomatis, Sistem infotainment yang terhubung ke internet"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/tvv3"
+        android:layout_below="@id/iv3"
+        android:text="Price $ 120,000"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sbv1"
+        android:layout_width="44dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tvv3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/baseline_ios_share_24"/>
+
+</RelativeLayout>

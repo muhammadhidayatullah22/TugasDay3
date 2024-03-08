@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PorscheActivity">
+
+    <TextView
+        android:id="@+id/tvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/porsche_models"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:id="@+id/ibut1"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tvp"
+        android:contentDescription="@string/_911gt3rs"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_911_gt3_rs"/>
+
+    <TextView
+        android:id="@+id/tvp1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_911_gt3_rs"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibut1"
+        android:layout_below="@id/tvp"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/bp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvp1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibut1"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibut2"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibut1"
+        android:contentDescription="@string/bugatti_chiron"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_718_cayman_gt4_rs"/>
+
+    <TextView
+        android:id="@+id/tvp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bp1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibut1"
+        android:text="@string/_718_gt4_rs"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvp2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibut2"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibut3"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibut2"
+        android:contentDescription="@string/_911carrera"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_911_carrera"/>
+
+    <TextView
+        android:id="@+id/tvp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bp2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibut3"
+        android:text="@string/_911_carrera"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvp3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibut2"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibut4"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibut3"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_718_spyder_rs"
+        android:contentDescription="@string/_718spyder" />
+
+    <TextView
+        android:id="@+id/tvp4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bp3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibut4"
+        android:text="@string/_718_spyder_rs"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvp4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibut4"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+    <ImageButton
+        android:id="@+id/ibut5"
+        android:layout_width="208dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ibut4"
+        android:contentDescription="@string/taycann"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/taycan"/>
+
+    <TextView
+        android:id="@+id/tvp5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bp4"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/ibut5"
+        android:text="@string/taycan"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/bp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvp5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/ibut5"
+        android:backgroundTint="#710A0A"
+        android:text="@string/see_more" />
+
+</RelativeLayout>

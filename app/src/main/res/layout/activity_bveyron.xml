@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BugattiActivity">
+
+    <TextView
+        android:id="@+id/tvv1"
+        android:text="@string/bugatti_veyron_ss_"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ivbv1"
+        android:layout_width="258dp"
+        android:layout_height="209dp"
+        android:layout_below="@+id/tvv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bugattti_11zon" />
+
+    <TextView
+        android:id="@+id/tvbv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivbv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Mesin: 8.0-liter quad-turbocharged W16, Tenaga: 1.200 - 1.500 PS, Torsi: 1.500 Nm\nPerforma: Kecepatan Maksimum: Terbatas hingga sekitar 415 km/jam untuk menjaga kestabilan, Akselerasi 0-100 km/jam: Sekitar 2,5 detik\nTransmisi: 7-kecepatan DSG (Direct-Shift Gearbox) dengan paddle shifters\nRangka dan Suspensi: Rangka: Monokok karbon-fiber, Suspensi: Suspensi independen dengan pengaturan kinerja tinggi\nRem: Rem Depan: Brembo rem keramik karbon, Rem Belakang: Brembo rem keramik karbon\nDimensi dan Bobot: Panjang: Sekitar 4.462 mm, Lebar: Sekitar 1.998 mm, Tinggi: Sekitar 1.204 mm, Berat: Sekitar 1.888 kg\nInterior: Interior yang mewah dengan material berkualitas tinggi, Sistem hiburan canggih dan sistem navigasi\nEksterior: Desain aerodinamis yang agresif, Material konstruksi ringan untuk meningkatkan performa\nFitur Lainnya: Sistem kontrol traksi, Sistem kontrol stabilitas, Sistem pengereman anti-blokir (ABS), Sistem pengurangan kecepatan darurat, Sistem pengukur tekanan ban"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/tvv3"
+        android:layout_below="@id/tvbv1"
+        android:text="@string/price_2_400_000"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_below="@id/tvbv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toRightOf="@id/tvv3"
+        android:background="@drawable/baseline_ios_share_24"/>
+
+</RelativeLayout>
